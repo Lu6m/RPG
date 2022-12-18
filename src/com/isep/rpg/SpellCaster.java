@@ -8,6 +8,7 @@ import java.util.List;
 
 public abstract class SpellCaster extends Hero {
     private int doseMana=50;
+    public int getDoseMana() {return this.doseMana;}
     private int manaUtilise=10;
 
     public SpellCaster(int ptsVie, String name) {

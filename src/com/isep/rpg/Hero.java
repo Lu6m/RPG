@@ -38,7 +38,7 @@ public abstract class Hero extends Combatant {
     public void setWeapon(Weapon weapon) {this.weapon=weapon;}
     public Weapon getWeapon() {return this.weapon;}
     public void createLuggage(){
-        this.nbPart=2;
+        this.nbPart++;
         this.inventaire = new ArrayList<>();
         for (int i =1; i<=this.nbPart; i++) {
             Random rand = new Random();
